@@ -1,0 +1,87 @@
+#content {
+	width: 40em;
+	margin: 0px auto;
+	align: justify;
+}
+
+ div {
+  text-align: justify;
+  text-justify: inter-word;
+} 
+
+#box {
+	padding: 1em;
+	border: 1px solid black;
+	background: #f2f2f2;
+}
+
+#picture {
+	border: 1px solid black;
+	background: #f2f2f2;
+	padding: 1em;
+	padding-bottom: 0em;
+}
+
+h1 {
+	align: center;
+}
+
+img {
+	max-width: 37.5em;
+	border: 2px solid black;
+}
+
+.title {
+	border: none;
+}
+
+.chapterlink {
+	color: red;
+	text-decoration: none;
+}
+
+.warning {
+	background: #FFDEAD;
+	padding: 1em;
+}
+
+.note {
+	color: red;
+	text-decoration: none;
+}
+
+a:target h4 {
+	color: red;
+}
+
+a[name^="note"]:target p{
+	background-color: #f1f1f1;
+}
+
+
+#picture p {
+	font-size: .9em;
+	font-style: italic;
+}
+
+blockquote {
+	font-style: italic;
+	color: black;
+	background: #f1f1f1;
+	padding: 1em;
+}
+
+table {
+	text-align: right;
+	border-spacing: .5em;
+	border: 1px solid black;
+	background: #f1f1f1;
+}
+
+td, tr {
+	padding: .1em;
+}
+
+.text li {
+	padding-bottom: 1em;
+}
